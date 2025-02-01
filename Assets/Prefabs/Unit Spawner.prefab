@@ -130,6 +130,7 @@ GameObject:
   - component: {fileID: 1039742158472600004}
   - component: {fileID: 8007248069811892681}
   - component: {fileID: 528508600696066255}
+  - component: {fileID: 1469874306058315336}
   m_Layer: 0
   m_Name: Unit Spawner
   m_TagString: Untagged
@@ -226,6 +227,22 @@ MonoBehaviour:
   syncMode: 0
   syncInterval: 0
   aimAtPoint: {fileID: 6097358835376330432}
+--- !u!114 &1469874306058315336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1894607132048344171}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec8ac29f95668bf479f42c1ec024858d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncDirection: 0
+  syncMode: 0
+  syncInterval: 0
+  maxHealth: 100
 --- !u!1 &8678646051120155194
 GameObject:
   m_ObjectHideFlags: 0
