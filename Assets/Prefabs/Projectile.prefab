@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 5151709078719530676}
   - component: {fileID: 4015724152280582993}
   - component: {fileID: 7210836825965329049}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Projectile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -144,6 +144,7 @@ MonoBehaviour:
   syncMode: 0
   syncInterval: 0
   rb: {fileID: 7210836825965329049}
+  damageToDeal: 20
   launchForce: 10
   destroyAfterSeconds: 5
 --- !u!54 &7210836825965329049
