@@ -65,4 +65,5 @@ MonoBehaviour:
   syncDirection: 0
   syncMode: 0
   syncInterval: 0
-  myUnits: []
+  buildings:
+  - {fileID: 5982929918972550823, guid: 0a8b5bce886e28044bd3fbc1fbd99823, type: 3}
