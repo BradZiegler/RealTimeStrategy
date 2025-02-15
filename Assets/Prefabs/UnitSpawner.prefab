@@ -119,6 +119,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 57feb25a4a015894c9abff4683f7cfa6, type: 3}
+--- !u!23 &1375874601601049710 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 6178906349306122490, guid: 57feb25a4a015894c9abff4683f7cfa6, type: 3}
+  m_PrefabInstance: {fileID: 5091306457084048532}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &7821541327652171155 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3038881204680726791, guid: 57feb25a4a015894c9abff4683f7cfa6, type: 3}
@@ -272,6 +277,14 @@ PrefabInstance:
       propertyPath: buildingPreview
       value: 
       objectReference: {fileID: 66491288839827062, guid: 57feb25a4a015894c9abff4683f7cfa6, type: 3}
+    - target: {fileID: 1218220249987692847, guid: bf0f670454fcc2d43a5f0ff0855292c1, type: 3}
+      propertyPath: colorRenderers.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1218220249987692847, guid: bf0f670454fcc2d43a5f0ff0855292c1, type: 3}
+      propertyPath: 'colorRenderers.Array.data[0]'
+      value: 
+      objectReference: {fileID: 1375874601601049710}
     - target: {fileID: 1991135508775271171, guid: bf0f670454fcc2d43a5f0ff0855292c1, type: 3}
       propertyPath: sceneId
       value: 0

@@ -137,6 +137,14 @@ PrefabInstance:
       propertyPath: price
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1218220249987692847, guid: bf0f670454fcc2d43a5f0ff0855292c1, type: 3}
+      propertyPath: colorRenderers.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1218220249987692847, guid: bf0f670454fcc2d43a5f0ff0855292c1, type: 3}
+      propertyPath: 'colorRenderers.Array.data[0]'
+      value: 
+      objectReference: {fileID: 1375874601601049710}
     - target: {fileID: 1991135508775271171, guid: bf0f670454fcc2d43a5f0ff0855292c1, type: 3}
       propertyPath: sceneId
       value: 0
